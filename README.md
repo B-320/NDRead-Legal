@@ -1,2 +1,2 @@
-# NDRead-Legal
+# NDReady-Legal
 NDReady-Legal
