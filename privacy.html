@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — NDReady</title>
+  <style>
+    :root {
+      --bg: #111E1A;
+      --surface: #1A2E27;
+      --green: #93BD52;
+      --text: #FFFDED;
+      --text-dim: rgba(255, 253, 237, 0.55);
+      --hairline: rgba(255, 253, 237, 0.08);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 0 20px 80px;
+    }
+
+    header {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 0 40px;
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    .wordmark {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 20px;
+    }
+
+    .wordmark span { color: var(--green); }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+
+    section {
+      margin-bottom: 44px;
+    }
+
+    h2 {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 14px;
+    }
+
+    p {
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--hairline);
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+
+    .card-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--hairline);
+      font-size: 15px;
+    }
+
+    .card-row:last-child { border-bottom: none; padding-bottom: 0; }
+    .card-row:first-child { padding-top: 0; }
+
+    .row-label { color: var(--text-dim); flex-shrink: 0; }
+    .row-value { text-align: right; }
+
+    a {
+      color: var(--green);
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--hairline);
+      margin: 44px 0;
+    }
+
+    footer {
+      max-width: 680px;
+      margin: 0 auto;
+      padding-top: 32px;
+      border-top: 1px solid var(--hairline);
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wordmark"><span>ND</span>Ready</div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: June 23, 2026 &nbsp;·&nbsp; Last updated: June 23, 2026</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>The short version</h2>
+      <p>NDReady helps you dial in your action camera settings before you ride. The app reads light from a photo you take, saves session notes locally on your device, and uses RevenueCat to manage your subscription. We don't collect your name, email address, or any personally identifying information.</p>
+    </section>
+
+    <section>
+      <h2>Who we are</h2>
+      <p>NDReady is an independent iOS app. For privacy questions, contact us at <a href="mailto:noah.biggley.inquiries@gmail.com">noah.biggley.inquiries@gmail.com</a>.</p>
+    </section>
+
+    <section>
+      <h2>What we collect and why</h2>
+
+      <div class="card">
+        <div class="card-row">
+          <span class="row-label">Camera &amp; photos</span>
+          <span class="row-value">Used on-device only to read light levels. Photos are never stored or transmitted.</span>
+        </div>
+        <div class="card-row">
+          <span class="row-label">Location</span>
+          <span class="row-value">Approximate GPS saved with your scan sessions so you can find spots again. Never shared. Permission is optional — sessions save without it if you decline.</span>
+        </div>
+        <div class="card-row">
+          <span class="row-label">Subscription status</span>
+          <span class="row-value">Managed by RevenueCat. Linked to an anonymous App User ID, not your identity. Used to validate your subscription and restore purchases.</span>
+        </div>
+        <div class="card-row">
+          <span class="row-label">Session history</span>
+          <span class="row-value">Scan results, ND filter recipes, and spot notes are stored locally on your device using SwiftData. We cannot access this data.</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What we don't collect</h2>
+      <p>We do not collect your name, email address, Apple ID, or any other personally identifying information. We do not run analytics, crash reporting, or ad tracking. We do not sell your data.</p>
+    </section>
+
+    <section>
+      <h2>RevenueCat</h2>
+      <p>NDReady uses RevenueCat to manage in-app subscriptions. RevenueCat verifies App Store receipts, processes subscription purchases, restores previous purchases, and syncs subscription status across your devices signed into the same Apple ID.</p>
+      <p>This information is linked to an anonymous App User ID generated by the RevenueCat SDK — not to your name or Apple account. RevenueCat does not have access to any personal information.</p>
+      <p>RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a></p>
+    </section>
+
+    <section>
+      <h2>Data stored on your device</h2>
+      <p>All scan sessions, spot history, and profile settings are stored locally on your iPhone using SwiftData. This data does not leave your device and is not accessible to us. If you delete the app, this data is deleted with it.</p>
+    </section>
+
+    <section>
+      <h2>Location data</h2>
+      <p>NDReady requests location permission to save approximate GPS coordinates with your scan sessions. This data is stored locally on your device only. We do not transmit, share, or have access to your location data.</p>
+      <p>Location permission is optional. If you decline, sessions are saved without coordinates and all other features work normally.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>NDReady is not directed at children under 13 and we do not knowingly collect information from children.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If we make material changes, we'll update the effective date at the top of this page. Continued use of the app after changes are posted constitutes acceptance of the updated policy.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this policy? Email us at <a href="mailto:noah.biggley.inquiries@gmail.com">noah.biggley.inquiries@gmail.com</a>.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 NDReady. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
